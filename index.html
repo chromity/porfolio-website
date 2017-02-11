@@ -1,0 +1,185 @@
+<head> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+  <link href="http://overpass-30e2.kxcdn.com/overpass.css" rel="stylesheet" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet" type="text/css">
+
+  <link href="http://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet" type="text/css">
+</head>
+
+
+<script>
+  $(function() {
+    $('a[href*="#"]:not([href="#"])').click(function() {
+      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+        var target = $(this.hash);
+        target = target.length ? target : $('[name=' + this.hash.slice(1) +']'); /* parsing */
+        if (target.length) {
+          $('html, body').animate({
+            scrollTop: target.offset().top
+          }, 1000);
+          return false;
+        }
+      }
+    });
+  });
+  
+</script>
+
+<style>
+  
+  nav {
+    font-family: Overpass;
+  }
+  
+  .body-text {
+    font-family: Alegreya;
+    font-size: 19px;
+    margin-left: 60px;
+    margin-right: 60px;
+    text-align: justify;
+  }
+  
+  .first {
+    text-indent: 2em;
+  }
+  
+  #about {
+    padding-top: 50px;
+    height: 1340px;
+    background-color: #EBFCED;
+  }
+  
+  #portfolio {
+    padding-top: 50px;
+    background-color: #C2E7F2;
+    height: 850px;
+  }
+  
+  #contact {
+    padding-top: 50px;
+    height: 300px;
+    background-color: #EBFCED;
+  }
+  
+  #copyright {
+    padding-top: 20px;
+    height: 100px;
+    background-color: #3C5580;
+    color: #FFF;
+  }
+  
+  h2 {
+    font-family: Playfair Display;
+    font-size: 28px;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  
+  .title {
+    font-family: Alegreya;
+    font-size: 28px;
+  }
+  
+  .quote {
+    font-family: Alegreya;
+    font-size: 24px;
+  }
+   
+  .portfolio-caption {
+    font-family: Alegreya;
+    font-size: 19px;
+  }
+</style>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#site-navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="#">CHROMITY</a>
+      </div>
+      <div>
+        <div class="collapse navbar-collapse" id="site-navbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="content">
+    <div id="about">
+      <img src="https://lh3.googleusercontent.com/-i-YwqHIAsFQ/AAAAAAAAAAI/AAAAAAAAACM/y0jLJLHnn1U/photo.jpg?sz=328" class="img-circle img-thumbnail center-block" style="max-width: 30%; height: auto; margin-top: 80px; margin-bottom: 20px;" alt="Michael Daryl Mayo">
+      <p class="text-center title" style="margin-bottom: 10px;">Michael Daryl Mayo</p>
+      <p class="text-center quote" style="margin-bottom: 150px;">I tread my own path | Undergraduate - BS Computer Eng'g | Manila, PH</p>
+      <h2 style="margin-bottom: 19px;">About me</h2>
+      <p class="body-text first">Hello, I am Michael Daryl P. Mayo. This is my personal portfolio I created for Free Code Camp. I am currently studying BS Computer Engineering at Technological Institute of the Philippines. I am already in my second year now.</p>
+      <p class="body-text first">Since I was a child, I have always been fascinated by computers or technology. I am curious on how things work and how they were made. I still remember disassembling my toys to see how those components inside them interacts to make them work. That
+        is the reason why I enter the field of technology.</p>
+      <p class="body-text first">I took up my kindergarten education in Bicol, Philippines. Preparatory to Elementary and Elementary in Victoria School Foundation in Manila. When I was in grade 3 I transferred to Concepcion Elementary School and graduated ranked 6. I then enrolled
+        in Marikina Science High School and passed. I finished high school with the award "Programmer and Technician of the Year" (I'm really proud of it haha) and found my way unto college.</p>
+      <p class="body-text first">I joined a lot of competitions, including Tagisang Robotics. Tagisang Robotics is a competition held by the Department of Science and Technology wherein robots are designed by each of the schools who attended. The robots will then compete in a soccer
+        match. I really enjoy and value this experience so much because it is one of the reasons why am I pursuing my degree right now. It is one of the lights I keep holding on whenever I feel sad and hopeless.</p>
+      <p class="body-text first">I love reading novels (fiction and non-fiction, more on the genre romance), reading books, watching TV series like How I Met Your Mother, The Big Bang Theory and many more. I spend my time on surfing the web specifically the website Reddit, learning
+        programming through Harvard CS50x online, and reading a lot of translated foreign web novels. Right now I am currently studying web development through Free Code Camp and I am aiming to take the Full-Stack Developer Certification.</p>
+      <p class="body-text first">In the near future, I plan to widen my knowledge in web development and finish CS50. After that, I plan to study Network Security. By the end of 2018, I hope that I can get an Intern position in a good company.</p>
+    </div>
+
+    <div id="portfolio">
+      <h2 style="margin-bottom: 40px; margin-top: 40px;">My Projects</h2>
+      <div id="row">
+        <div class="col-md-6">
+          <img src="https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAOWAAAAJDQyMDlhMGE0LWQzNDctNDM4OC1hNjMxLTg3YmJhNGVlYzkyOA.jpg" class="img-thumbnail center-block" style="max-width: 70%; height: auto;">
+          <p class="portfolio-caption text-center" style="margin-top: 20px;">I'm taking CS50, aiming to finish the final project by Summer 2016</p>
+        </div>
+        <div class="col-md-6">
+          <img src="http://mspoweruser.com/wp-content/uploads/msn/2015/03/cyanogen.png" class="img-thumbnail center-block" style="max-width: 70%; height: auto; margin-bottom: 0px;">
+          <p class="portfolio-caption text-center" style="margin-top: 31px; margin-bottom: 20px;">Hopefully after 1-2 years I can already help with Open-Source projects</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="https://i.ytimg.com/vi/9dgmE2-HT8E/maxresdefault.jpg" class="img-thumbnail center-block" style="max-width: 60%; height: auto; margin-top: 24px;">
+          <p class="portfolio-caption text-center" style="margin-top: 20px;">I'm currently doing Free Code Camp activities right now</p>
+        </div>
+        <div class="col-md-6">
+          <img src="https://camo.githubusercontent.com/c42438055d3fee26b29e6d046fd8d06ebff3db20/687474703a2f2f692e696d6775722e636f6d2f6838786a72726a2e706e67" class="img-thumbnail center-block" style="max-width: 50%; height: auto; margin-top: 0px;">
+          <p class="portfolio-caption text-center" style="margin-top: 20px;">I'm planning to finish all the courses under OSS University in GitHub</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h2 style="margin-top: 60px; margin-bottom: 20px;">You can contact me through:</h2>
+      <div class="row">
+        <div class="col-md-2">
+          <h3 style="font-family: Alegreya; margin-bottom: 15px; margin-left: 100px; font-size: 19px;"><a href="https://www.facebook.com/techero21"><i class="fa fa-facebook-official"></i>  Facebook</a></h3></div>
+        <div class="col-md-2">
+          <h3 style="font-family: Alegreya; margin-bottom: 15px; margin-left: 100px; font-size: 19px;"><a href="https://www.twitter.com/evenfallx"><i class="fa fa-twitter"></i>  Twitter</a></h3></div>
+        <div class="col-md-2">
+          <h3 style="font-family: Alegreya; margin-bottom: 15px; margin-left: 100px; font-size: 19px;"><a href="https://github.com/chromity"><i class="fa fa-github"></i>  GitHub</a></h3></div>
+        <div class="col-md-4">
+          <h3 style="font-family: Alegreya; margin-bottom: 15px; margin-left: 100px; font-size: 19px;"><a href="https://mail.gmail.com/techero21"><i class="fa fa-google"></i>  michaeldaryl.mayo@gmail.com</a></h3></div>
+      </div>
+    </div>
+
+    <div id="copyright">
+      <h2 style="font-family: Overpass; text-align: center;">All rights reserved 2016</h2>
+    </div>
+  </div>
+</body>
